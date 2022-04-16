@@ -29,7 +29,7 @@ package Unit_02;
    
  */
 
-public class P_08_Task_01_InhritanceInJava {
+public class P08_Task_01_InhritanceInJava {
 	 public static void main(String[] args)
 	 {
 		 Three g=new Three(1);
