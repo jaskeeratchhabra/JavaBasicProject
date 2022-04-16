@@ -20,7 +20,7 @@ public class P4_Task_02_WrapperClassInJava {
 		
 		byte bytevalue = byteobj;
 		System.out.println(bytevalue);
-		
+		System.out.println(s);
 
 	}
 }
