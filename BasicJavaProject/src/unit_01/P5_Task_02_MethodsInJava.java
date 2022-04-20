@@ -5,8 +5,9 @@ public class P5_Task_02_MethodsInJava {
 	public static void main(String[] args) {
         ABC3 obj = new ABC3();
 		
-		obj.display();
-		System.out.println(obj.a);
+		ABC3.display();
+		System.out.println(ABC3.a);
+		obj.display2();
 	}
 	
 	
