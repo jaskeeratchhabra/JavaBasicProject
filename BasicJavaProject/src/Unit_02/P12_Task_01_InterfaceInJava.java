@@ -1,31 +1,57 @@
 package Unit_02;
+interface Animal{
+	public void animalsound();             // Interface method does not have a body.
+	public void run();
+}
 
+interface Human{
+	
+	public void humansound();
+	public void run1();
+	
+}
 public class P12_Task_01_InterfaceInJava {
 	// Interface - 100% abstract class.
-	interface Animal{
-		public void animalsound();             // Interface method does not have a body.
-		public void run();
-	}
-
-	interface Human{
-		
-		public void humansound();
-		public void run1();
-		
-	}
+//	interface Animal{
+//		public void animalsound();             // Interface method does not have a body.
+//		public void run();
+//	}
+//
+//	interface Human{
+//		
+//		public void humansound();
+//		public void run1();
+//		
+	
+	
+//	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		C1 obj = new C1();
 		obj.funcA();
 		obj.funcB();
+		Species obj2=new Species();
+		obj2.animalsound();
+		obj2.run();
+		obj2.humansound();
+		obj2.run1();
+		
 
 	}
-public void animalsound() {}
-	
-public void run() {}
-
 }
+//public void animalsound() {}
+	
+//public void run() {}
+
+
+//	public void animalsound();             // Interface method does not have a body.
+//	public void run();
+
+
+//public void animalsound();             // Interface method does not have a body.
+//public void run();
+	
 class Species implements Animal, Human{
 	
 	public void animalsound() {
