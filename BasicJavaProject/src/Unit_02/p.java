@@ -1,6 +1,6 @@
 package Unit_02;
 import java.util.Scanner;
-class p {
+public class p {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
