@@ -7,14 +7,16 @@ package unit_01;
  * 
  * -StringBuffer is mutable unlike string
  */
+import java.util.*;
 public class P6_Task_03_StringBufferClassInJava {
+	public static void main(String[] args)
+	{
 	StringBuffer sb = new StringBuffer("Hello");
 	sb.append("java");
 	System.out.println(sb.charAt(0));
 	
 	//StringBuffer() class append() Method, now original string is changed
 	System.out.println(sb);
-	
 	
 	//StringBuffer() insert() Method
 	StringBuffer sb2 = new StringBuffer("Hello");
@@ -32,11 +34,9 @@ public class P6_Task_03_StringBufferClassInJava {
 	//StringBuffer() delete() Method
 	StringBuffer sb4 = new StringBuffer("Hello");
 	sb4.delete(1,3);
-	System.out.println(sb4);//prints hlo
-	
-	
-	
+	System.out.println(sb4);//ho
 	
 	}
-
+	
+	
 }

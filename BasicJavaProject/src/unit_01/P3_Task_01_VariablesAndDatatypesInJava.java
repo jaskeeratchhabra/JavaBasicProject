@@ -24,5 +24,8 @@ public class P3_Task_01_VariablesAndDatatypesInJava {
 
 class Wow{
 	static char ch = 'A';
+	public int a=3;
+	protected int b=4;
+	private int c=5;
 
 	}

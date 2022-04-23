@@ -49,10 +49,6 @@ class StringInJava {
 		 * 	-If the string doesn't exist,the new string is created.
 		 * 
 		 */
-		
-		String fourth = "Alexander";
-		String fifth = new String("Alex!");
-		
 	}
 	
 	

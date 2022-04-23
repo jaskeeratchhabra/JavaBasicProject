@@ -5,8 +5,6 @@ public class P6_Task_01_ArraysInJava {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
         int array1[];
-		int[] array2;
-		int []array3;
 		
 		
 		//can not do it as we have not provide it any memory/space yet!
@@ -34,14 +32,14 @@ public class P6_Task_01_ArraysInJava {
 		
 		// ArrayIndexOutOfBoundsException
 		int arr[] = { 50, 60, 70, 80};
-		for (int i = 0;i <= arr.length; i++) {
-			System.out.println(arr[i]);
-		}
+//		for (int i = 0;i <= arr.length; i++) {
+//			System.out.println(arr[i]);
+//		}
 		
 		//Multidimensional Array in Java
 		int[][] arr6 = new int [3][3];//3 row and 3 column
 		
-		for (int i=0,j=0;i<3 && j<3; i++,j++) {
+		for (int i=0,j=0;i<3&&j<3; i++,j++) {
 			System.out.println(arr6[i][j]);
 		}
 		int counter = 0;
