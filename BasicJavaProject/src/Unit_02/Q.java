@@ -6,10 +6,10 @@ public class Q {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		 Scanner obj=new Scanner(System.in);
+		 Scanner obj = new Scanner(System.in);
 	     Students arr[]=new Students[6];
 	     for(int i=0;i<6;i++)
-	     {
+	     {   
 	    	 String s=obj.next();
 	    	 int a1=obj.nextInt();
 	    	 char sec=obj.next().charAt(0);
@@ -19,9 +19,9 @@ public class Q {
 	     float avg=arr[0].percentage+arr[1].percentage+arr[2].percentage+arr[3].percentage+arr[4].percentage+arr[5].percentage;
 	     avg/=6;
 	     System.out.println("avg percentage is "+avg);
+	     obj.close();
 
 	}
-
 }
 class Students
 {
