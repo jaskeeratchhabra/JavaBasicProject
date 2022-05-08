@@ -10,5 +10,4 @@ public class P2_Task_02_ConstraintsInJava {
 	    System.out.println(pi);
 	    System.out.println(x);     
 	}
-
 }

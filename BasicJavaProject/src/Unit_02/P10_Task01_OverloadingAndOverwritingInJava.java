@@ -1,9 +1,7 @@
 package Unit_02;
-
 public class P10_Task01_OverloadingAndOverwritingInJava {
-
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 OverloadingAndOverridingInJava obj = new OverloadingAndOverridingInJava();
 		
 		System.out.println("Add() with 2 parameters : ");
@@ -39,12 +37,12 @@ class OverloadingAndOverridingInJava {
 	
 }
 
-// Overriding In Java - ??
+// Overriding In Java
 class InheritFirstOne extends OverloadingAndOverridingInJava{
 	int add(int a, int b) {
 		
 		System.out.println("Inside InheritFirstOne");
-		return a+b;
+		return a-b;
 		
 	}
 	

@@ -4,11 +4,11 @@ public class P3_Task_01_VariablesAndDatatypesInJava {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int     a = 10;
-		float   b = 22.56f;
-		char    c = 'D';
+	    int     a = 10;
+	    float   b = 22.56f;
+	    char    c = 'D';
 		double  d = 34.67854d;
-		boolean e = true;
+	    boolean e = true;
 		
 		//This way these local variables can be printed.
 		System.out.println(a);
@@ -23,7 +23,7 @@ public class P3_Task_01_VariablesAndDatatypesInJava {
 }
 
 class Wow{
-	static char ch = 'A';
+	public static char ch = 'A';
 	public int a=3;
 	protected int b=4;
 	private int c=5;

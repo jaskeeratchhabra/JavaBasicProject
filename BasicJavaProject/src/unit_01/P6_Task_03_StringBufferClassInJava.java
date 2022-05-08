@@ -34,7 +34,7 @@ public class P6_Task_03_StringBufferClassInJava {
 	//StringBuffer() delete() Method
 	StringBuffer sb4 = new StringBuffer("Hello");
 	sb4.delete(1,3);
-	System.out.println(sb4);//ho
+	System.out.println(sb4);//hlo
 	
 	}
 	

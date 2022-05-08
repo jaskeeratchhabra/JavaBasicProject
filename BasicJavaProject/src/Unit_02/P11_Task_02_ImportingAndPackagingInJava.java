@@ -1,5 +1,5 @@
 package Unit_02;
-
+import unit_01.P3_Task_01_VariablesAndDatatypesInJava;
 import static java.lang.System.*;
 import static java.lang.Math.*;
 
@@ -16,6 +16,16 @@ public class P11_Task_02_ImportingAndPackagingInJava {
 		System.out.println(abs(6.3));
 		
 		P3_Task_01_VariablesAndDatatypesInJava obj = new P3_Task_01_VariablesAndDatatypesInJava();
+		
+		B b=new B();
 	
 	}
+}
+class B extends Wow{
+	
+	void fun()
+	{
+		System.out.println(a);
+	}
+	
 }

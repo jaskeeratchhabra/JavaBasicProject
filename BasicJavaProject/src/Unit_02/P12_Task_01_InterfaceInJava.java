@@ -79,6 +79,9 @@ class Species implements Animal, Human{
 	}
 	
 }
+interface A2{
+	void fun2();
+}
 
 interface A1 {
 	
@@ -86,7 +89,7 @@ interface A1 {
 	
 }
 
-interface B1 extends A1 {
+interface B1 extends A1,A2 {
 	
 	void funcB();
 	
@@ -104,6 +107,9 @@ class C1 implements B1{
 		
 		System.out.println("This is funcB from A2");
 		
+	}
+	public void fun2() {
+		System.out.println("hey");
 	}
 	
 }
